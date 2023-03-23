@@ -12,6 +12,10 @@ C++ 학습 리포지토리
 ## 2일차
 1. C언어 기반의 C++ 1	
 	- 함수 오버로딩(Function Overloading)
+	- 매개변수의 디폴트 값(Default Value)
 	- 인라인(inline)함수
 	- 이름공간(namespace)
-	- OOP 단계별 프로젝트 01단계
+2. C언어 기반의 C++ 2
+	- 새로운 자료형 bool
+	- 참조자
+	- 참조자와 함수

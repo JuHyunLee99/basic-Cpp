@@ -8,8 +8,8 @@ int main(void)
 	int* ptr = &num;
 	int** dptr = &ptr;
 
-	int& ref = num;
-	int* (&pref) = ptr;
+	int& ref = num;	// 변수 참조
+	int* (&pref) = ptr;	// 포인트 변수 참조
 	int** (&dpref) = dptr;
 
 	cout << ref << endl;

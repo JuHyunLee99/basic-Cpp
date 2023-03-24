@@ -25,7 +25,7 @@ public:		//접근제어 지시자
 	void Accel();			// 엑셀, 속도증가
 	void Break();			// 브레이크, 속도감소
 };
-
+// 인라인 함수는 헤더파일에서 정의해야한다.
 inline void Car::ShowCarState()	// 함수 정의
 {
 	cout << "소유자ID: " << gamerID << endl;
